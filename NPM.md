@@ -14,7 +14,7 @@ You can find both tilde(~) and caret(^) in package.json.
 
 > The caret ^ is more relaxed. It matches the most recent minor version (the second number) for the specified major version (the first number). ^1.2.3 will match any 1.x.x release including 1.3.0, but will hold off on 2.0.0.
 
-**source** [What's the difference between tilde(~) and caret(^) in package.json?](https://stackoverflow.com/a/22345808/978501)
+**source:** [What's the difference between tilde(~) and caret(^) in package.json?](https://stackoverflow.com/a/22345808/978501)
 
 
 ------------
@@ -33,20 +33,26 @@ You can find both tilde(~) and caret(^) in package.json.
 |-------|-----------|
 |`npm install` or `npm i` | For installing all the dependencies in `package.json`|
 |`npm i <module>` | For installing a specific module|
-|`npm uninstall <module>` or `npm un <module>` |  For uninstalling a specific module|
+|`npm install <module>@­<ve­rsi­on-­num­ber>`|For installing a specific version of a module|
+|`npm uninstall <module>` or `npm un <module>` |  For uninstalling a specific module. Use -g flag to uninstall a gloabl package|
+|`npm ci`| To install a project with clean slate, especially in your CI/CD environments. Read this for [more](https://docs.npmjs.com/cli/ci.html)|
+
+Common options: [-P|--save-prod|-D|--save-dev] [--dry-run]
 
 ## Updating
 
 |Command|Description|
 |-------|-----------|
-|`npm install npm@latest -g`|Update the `npm` to the latest version|
-     
+|`npm install npm@latest -g`|Update the `npm` to the latest version. For Windows operating system use `npm-windows-upgrade`|
+|`npm-windows-upgrage`| For upgrading NPM on windows|
+|`npm update <module>` or `npm up <module>`| For updating a package. Use -g flag to update a global package |
+
 ## Listing
 
 |Command|Description|
 |-------|-----------|
 |`npm run`|To list all the run commands available in `package.json`|
-|`npm ls -g --depth=0 --link=true`|To list all the globally installed links|
+|`npm ls -g --depth=0 --link=true` or `npm list <options>`|To list all the globally installed links|
 
 
 ## Options
@@ -61,6 +67,8 @@ You can find both tilde(~) and caret(^) in package.json.
 |Command|Description|
 |-------|-----------|
 |`npm cache clear —force`|To clear cache|
+|`npm prune`|To remove unused packages|
 
 
-
+## Reference
+For complete list of cli documentation refer [here](https://docs.npmjs.com/cli-documentation/)

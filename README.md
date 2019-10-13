@@ -14,4 +14,5 @@ Prefer LTS (Long Term Support) version as it will be maintained for 18 months
 
 |Command|Description|
 |-------|-----------|
-|`node -v`|To know the version|
+|`node -v`|To know the node version|
+|`npm -v`|To know the npm version|
