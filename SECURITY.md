@@ -13,7 +13,6 @@
 
 6. Embrace Linter security rules to identify and prevent vulnerabilities in the development phase itself. Use [tslint-config-security](https://www.npmjs.com/package/tslint-config-security), [eslint-plugin-security](https://github.com/nodesecurity/eslint-plugin-security)
 
-7. // Todo
 
 ## Worth Reading:
 1. [https://nemethgergely.com/nodejs-security-overview/](https://nemethgergely.com/nodejs-security-overview/)
