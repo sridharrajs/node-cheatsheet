@@ -70,5 +70,12 @@ Common options: [-P|--save-prod|-D|--save-dev] [--dry-run]
 |`npm prune`|To remove unused packages|
 
 
+## List of useful npms
+
+| package | description |
+|---------|-------------|
+| [device-detector-js](https://www.npmjs.com/package/device-detector-js) | for extracing information from user-agent of request |
+
+
 ## Reference
 For complete list of cli documentation refer [here](https://docs.npmjs.com/cli-documentation/)
