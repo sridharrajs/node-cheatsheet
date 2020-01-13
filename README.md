@@ -16,3 +16,4 @@ Prefer LTS (Long Term Support) version as it will be maintained for 18 months
 |-------|-----------|
 |`node -v`|To know the node version|
 |`npm -v`|To know the npm version|
+|`which node`| To know the current installed version of node that the system is using |
