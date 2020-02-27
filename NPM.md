@@ -61,6 +61,7 @@ Common options: [-P|--save-prod|-D|--save-dev] [--dry-run]
 |-------|-----------|
 |`npm repo`|To open the repo url on the default browser, provided `package.json` has a valid `repository` details|
 |`npm bugs`|To open `issues` page of the repo on Github|
+|`npm audit`| To scan for the vulnerability in your installed packages. Use `--json` option to see the report in json format|
 
 ## Debugging
 
